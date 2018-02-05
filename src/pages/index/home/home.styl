@@ -1,0 +1,200 @@
+.home_main_view
+	width 100%
+	position relative
+	padding-bottom 260px
+	.el-carousel__item
+		background-color #fff
+		background-repeat no-repeat
+		background-size cover
+		background-position center center
+	.home_type_box
+		width 100%
+		height 626px
+		position relative
+		// margin 100px auto
+		background #58D9D9 
+		.type_box_cloud
+			width 366px
+			height 168px
+			position absolute
+			top 0
+			left 0
+		.type_box_tree
+			width 100%
+			height 432px
+			position absolute
+			bottom -20px
+			left 0
+			z-index 1
+		.home_type_list
+			height 280px
+			position absolute
+			top 50%
+			left 50%
+			transform: translate(-50%, -50%)
+			z-index 2
+			.el-col-6
+				width 188px
+				overflow hidden
+				cursor pointer
+				transition 0.3s all linear
+				border-radius 10px
+				margin: 0 10px
+				&:hover
+					transform translate(0, -30px)
+				.type_item_bg_first
+					border-radius 10px
+					width 180px
+					height 280px
+					background-size cover
+					background-position center center
+					background-repeat no-repeat
+					position relative
+					box-shadow 0 0 5px 0 rgba(51,55,57,0.35)
+					text-align center
+					> img
+						display inline-block
+						width 180px
+						vertical-align middle
+					.type_item_bg_second
+						position absolute
+						top 0
+						left 0
+						z-index 2
+						width 100%
+						height 100%
+						background-image url('type_list_cover.png')
+						background-size 100% 100%
+						background-repeat no-repeat
+					.type_item_bg_third
+						position absolute
+						bottom 0
+						left 0
+						z-index 3
+						width 100%
+						height 81px
+						background-size 100% 81px
+						background-position 0 100%
+						background-repeat no-repeat
+						.type_item_text
+							position absolute
+							left 0
+							bottom 20px
+							width 100%
+							padding-right 20px
+							text-align right
+							font-size 26px
+							line-height 28px
+							color #fff
+	.home_info
+		width 100%
+		background-color #F8F9FA
+		height 630px
+		// padding-top 20px
+		.home_info_col
+			display flex
+			height 630px
+			padding-right 0
+			&:first-child
+				background-color #F8F9FA
+			&:last-child
+				background-color #EFF1F2
+			.info_left_block
+				flex 1
+			.home_info_box
+				width 490px
+				position relative
+				margin-top 60px
+				padding-bottom 30px
+				.info_bottom_box
+					position absolute
+					left 0
+					width 100%
+					bottom 16px
+					text-align right
+					padding-right 10px
+					.info_bottom_btn
+						width 70px
+						font-size 14px
+						color #fff
+				.home_info_title
+					width 100%
+					height 62px
+					> img
+						display block
+						width 206px
+						height 62px
+				.info_introduction_car
+					margin-top 40px
+					width 100%
+					height 288px
+				.home_introduction_text
+					margin-top 20px
+					font-size 12px
+					line-height 18px
+					max-height 90px
+					color #83888c
+					display -webkit-box
+					overflow hidden
+					text-overflow ellipsis
+					-webkit-box-orient vertical
+					-webkit-line-clamp 5
+				.home_dynamic_list
+					margin-top 40px
+					.home_dynamic_item
+						margin-top 10px
+						display flex
+						cursor pointer
+						&:first-child
+							margin-top 0
+						.dynamic_item_left
+							width 200px
+							height 120px
+							line-height 120px
+							overflow hidden
+							> img
+								// width 200px
+								display inline-block
+								width 100%
+								vertical-align middle
+						.dynamic_item_right
+							flex 1
+							margin-left 10px
+							overflow hidden
+							height 120px
+							line-height 120px
+							display -webkit-box
+							-webkit-box-orient horizonal
+							-webkit-box-pack center
+							-webkit-box-align center
+							.dynamic_right_box
+								width 100%
+								overflow hidden
+								.dynamic_item_title
+									// margin-top 8px
+									font-size 14px
+									line-height 1.5
+									color #323435
+									overflow hidden
+									max-height 42px
+									text-overflow ellipsis
+									display -webkit-box
+									-webkit-box-orient vertical
+									-webkit-line-clamp 2
+								.dynamic_item_content
+									margin-top 10px
+									font-size 12px
+									line-height 16px
+									color #8c888c
+									// height 48px
+									overflow hidden
+									text-overflow ellipsis
+									display -webkit-box
+									-webkit-box-orient vertical
+									-webkit-line-clamp 3
+									max-height 48px
+								.dynamic_item_time
+									margin-top 10px
+									font-size 12px
+									line-height 12px
+									color #8c888c

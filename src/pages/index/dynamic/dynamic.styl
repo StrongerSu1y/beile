@@ -1,0 +1,83 @@
+.dynamic_main_view
+	position relative
+	padding-bottom 260px
+	background-color #fafafb
+	.dynamic_info_box
+		max-width 980px
+		margin 0 auto
+		padding 40px
+		background-color #fff
+		.dynamic_info_title
+			width 108px
+			// background-image url('../title_bg.png')
+			background-repeat no-repeat
+			background-size 108px 44px
+			font-size 16px
+			line-height 44px
+			text-align center
+			color #323435
+		.dynamic_list
+			width 100%
+			.dynamic_item
+				margin-top 40px
+				display flex
+				overflow hidden
+				cursor pointer
+				.dynamic_item_left
+					width 440px
+					height 264px
+					line-height 264px
+					font-size 0
+					overflow hidden
+					> img
+						display inline-block
+						width 100%
+						vertical-align middle
+				.dynamic_item_right
+					overflow hidden
+					flex 1
+					margin-left 20px
+					position relative
+					height 264px
+					line-height 264px
+					display -webkit-box
+					-webkit-box-orient horizonal
+					-webkit-box-align center
+					-webkit-box-pack center
+					.dynamic_right_box
+						width 100%
+						overflow hidden
+						.dynamic_item_title
+							// margin-top 8px
+							font-size 16px
+							font-weight bold
+							line-height 1.5
+							color #323435
+							overflow hidden
+							text-overflow ellipsis
+							display -webkit-box
+							-webkit-box-orient vertical
+							-webkit-line-clamp 2
+							max-height 48px
+						.dynamic_item_content
+							margin-top 15px
+							font-size 14px
+							line-height 20px
+							color #83888c
+							max-height 140px
+							overflow hidden
+							text-overflow ellipsis
+							display -webkit-box
+							-webkit-box-orient vertical
+							-webkit-line-clamp 7
+						.dynamic_item_time
+							// position absolute
+							// bottom 10px
+							// left 0
+							margin-top 10px
+							font-size 14px
+							line-height 20px
+							color #83888c
+	.el-pagination
+		margin-top 100px
+		text-align center

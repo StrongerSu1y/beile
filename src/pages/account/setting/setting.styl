@@ -1,0 +1,86 @@
+.account_setting_page
+	width 100%
+	height 100%
+	background-color #fafafb
+	position relative
+	padding-bottom 260px
+	i.el-input__icon
+		cursor pointer
+	.account_setting_page_body
+		max-width 980px
+		margin 0 auto
+		background-color #fff
+		.account_setting_page_main
+			width 800px
+			padding 0 20px 100px
+			margin 0 auto
+			border 1px solid #e1e6ea
+			box-shadow 8px 8px 0 0 #e1e6ea
+			.account_setting_title
+				font-size 16px
+				line-height 60px
+				border-bottom 1px solid #e1e6ea
+				display flex
+				.account_setting_title_left
+					flex 1
+				.account_setting_title_right
+					flex 1
+					.el-button
+						font-size 16px
+			.account_setting_body
+				position relative
+				width 340px
+				margin 0 auto
+				padding-top 80px
+				.account_setting_input_box
+					margin-top 16px
+					&:first-child
+						margin-top 0
+					.el-icon-view
+						&.active
+							color #ffcd3d
+					#settingCodeArea
+						width 100%
+						height 100%
+					.account_setting_input_text
+						height 44px
+						> input
+							height 44px
+							line-height 44px
+						&.border_right_none
+							> input
+								border-right none
+								border-radius 4px 0 0 4px
+						.el-input__inner
+							padding 10px 0
+							font-size 14px
+							line-height 1
+							text-indent 14px
+						.el-icon-circle-close
+							cursor pointer
+						.el-icon-view
+							cursor pointer
+							&.active
+								color #f8bd48
+						> input
+							height 44px
+							line-height 44px
+				.account_setting_get_code
+					height 44px
+					width 100%
+					background-color #ffcd3d
+					border 1px solid #ffcd3d
+					border none
+					border-radius 0 4px 4px 0
+					&.disabled
+						background-color #e1e6ea
+						border 1px solid #e1e6ea
+				.account_setting_next_step
+					width 100%
+					margin-top 30px
+					font-size 14px
+					// width 120px
+					height 44px
+					border-radius 3px
+					// background-color #57ADF5
+			
