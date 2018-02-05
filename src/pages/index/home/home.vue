@@ -10,7 +10,7 @@
 	    <!-- 种类列表 -->
 	    <section class="home_type_box">
 	    	<img src="./cloud.png" class="type_box_cloud">
-	    	<img src="./tree.png" class="type_box_tree">
+	    	<img src="./tree.png" class="type_box_tree" ref="treeHeight">
 	    	<el-row type="flex" :gutter="20" class="home_type_list">
 		    	<el-col v-for="(item, index) in typeList" :key="index" :span="6" @click.native="changeRouter(item.path, item.businessCls)">
 		    		<div class="type_item_bg_first" :style="{ backgroundImage: 'url(' + item.bookSrc + ')' }">
@@ -130,6 +130,7 @@
 		computed: {},
 		created () {
 			this.loadData()
+			this.treeHeightAuto()
 		},
 		methods: {
 			// 加载数据
@@ -178,6 +179,10 @@
 						id: id
 					}
 				})
+			},
+			treeHeightAuto () {
+				let treeHeight = this.treeHeight.height
+				console.log(treeHeight)
 			}
 		},
 		components: {
