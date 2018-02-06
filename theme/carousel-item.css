@@ -240,16 +240,16 @@
   .el-carousel__item.is-active {
     z-index: 2; }
   .el-carousel__item.is-animating {
-    -webkit-transition: -webkit-transform .4s ease-in-out;
-    transition: -webkit-transform .4s ease-in-out;
-    transition: transform .4s ease-in-out;
-    transition: transform .4s ease-in-out, -webkit-transform .4s ease-in-out; }
+    -webkit-transition: -webkit-transform .1s ease-in-out;
+    transition: -webkit-transform .1s ease-in-out;
+    transition: transform .1s ease-in-out;
+    transition: transform .1s ease-in-out, -webkit-transform .1s ease-in-out; }
   .el-carousel__item--card {
     width: 50%;
-    -webkit-transition: -webkit-transform .4s ease-in-out;
-    transition: -webkit-transform .4s ease-in-out;
-    transition: transform .4s ease-in-out;
-    transition: transform .4s ease-in-out, -webkit-transform .4s ease-in-out; }
+    -webkit-transition: -webkit-transform .1s ease-in-out;
+    transition: -webkit-transform .1s ease-in-out;
+    transition: transform .1s ease-in-out;
+    transition: transform .1s ease-in-out, -webkit-transform .1s ease-in-out; }
     .el-carousel__item--card.is-in-stage {
       cursor: pointer;
       z-index: 1; }
